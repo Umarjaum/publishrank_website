@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://publishrank.netlify.app/sitemap.xml

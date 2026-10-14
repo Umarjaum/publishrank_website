@@ -1,0 +1,11 @@
+{
+  "name": "publishrank-website",
+  "private": true,
+  "type": "module",
+  "description": "PublishRank static website and optional Unsplash image endpoint",
+  "devDependencies": {
+    "@netlify/functions": "^6.0.2",
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}

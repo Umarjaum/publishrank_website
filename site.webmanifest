@@ -1,0 +1,10 @@
+{
+  "name": "PublishRank — Nonprofit SEO for News Publishers",
+  "short_name": "PublishRank",
+  "description": "Fully nonprofit WordPress SEO, dedicated to news publishers of every size.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08121b",
+  "theme_color": "#08121b",
+  "icons": [{ "src": "/assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
