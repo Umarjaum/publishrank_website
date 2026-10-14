@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "publisher": {
+    "name": "PublishRank SEO",
+    "website": "https://publishrank.netlify.app/",
+    "documentation": "https://publishrank.netlify.app/"
+  },
+  "feed": {
+    "status": "active",
+    "generated_at": "2026-10-14T06:30:00Z",
+    "language": "en",
+    "cache_ttl": 3600,
+    "minimum_reader_version": "1.0.0"
+  },
+  "announcements": [
+    {
+      "id": "publishrank-news-sitemap-guidance",
+      "revision": 1,
+      "active": true,
+      "type": "feature",
+      "priority": "important",
+      "featured": true,
+      "title": "Review Your News Sitemap",
+      "summary": "Check your news sitemap configuration for your publishing workflow.",
+      "message": "PublishRank SEO includes publishing-focused SEO tools. Review your News Sitemap settings and verify that eligible news articles appear correctly in your sitemap. This is a general reminder, not a claim that a new feature has just been released.",
+      "published_at": "2026-10-14T06:00:00Z",
+      "updated_at": "2026-10-14T06:00:00Z",
+      "expires_at": "2026-11-14T23:59:59Z",
+      "targeting": {
+        "minimum_plugin_version": null,
+        "maximum_plugin_version": null,
+        "audience": [
+          "news_publishers",
+          "website_administrators"
+        ]
+      },
+      "display": {
+        "show_popup": false,
+        "dismissible": true,
+        "show_once_per_revision": true,
+        "minimum_days_between_prompts": 7
+      },
+      "actions": [
+        {
+          "label": "Visit PublishRank",
+          "url": "https://publishrank.netlify.app/",
+          "style": "primary"
+        }
+      ],
+      "labels": [
+        "news-seo",
+        "sitemaps"
+      ]
+    },
+    {
+      "id": "publishrank-schema-validation-guidance",
+      "revision": 1,
+      "active": true,
+      "type": "documentation",
+      "priority": "normal",
+      "featured": false,
+      "title": "Review Your Structured Data",
+      "summary": "Validate representative pages and articles.",
+      "message": "Review your article and page schema settings and validate representative URLs with appropriate testing tools. Correct reported errors where necessary. Valid structured data does not guarantee enhanced search results.",
+      "published_at": "2026-10-14T06:05:00Z",
+      "updated_at": "2026-10-14T06:05:00Z",
+      "expires_at": null,
+      "targeting": {
+        "minimum_plugin_version": null,
+        "maximum_plugin_version": null,
+        "audience": [
+          "website_administrators",
+          "content_publishers"
+        ]
+      },
+      "display": {
+        "show_popup": false,
+        "dismissible": true,
+        "show_once_per_revision": true,
+        "minimum_days_between_prompts": 14
+      },
+      "actions": [
+        {
+          "label": "Visit Documentation",
+          "url": "https://publishrank.netlify.app/",
+          "style": "secondary"
+        }
+      ],
+      "labels": [
+        "schema",
+        "technical-seo"
+      ]
+    },
+    {
+      "id": "publishrank-security-advisory-example",
+      "revision": 1,
+      "active": false,
+      "type": "security",
+      "priority": "critical",
+      "featured": false,
+      "title": "Example Security Advisory",
+      "summary": "Inactive example only; not a real security advisory.",
+      "message": "This inactive entry demonstrates the feed format. Keep it inactive until a real advisory is verified. A genuine advisory should identify affected versions, recommended actions, and relevant release information.",
+      "published_at": "2026-10-14T06:10:00Z",
+      "updated_at": "2026-10-14T06:10:00Z",
+      "expires_at": null,
+      "targeting": {
+        "minimum_plugin_version": null,
+        "maximum_plugin_version": null,
+        "audience": [
+          "all"
+        ]
+      },
+      "display": {
+        "show_popup": false,
+        "dismissible": true,
+        "show_once_per_revision": true,
+        "minimum_days_between_prompts": 30
+      },
+      "actions": [
+        {
+          "label": "Security Information",
+          "url": "https://publishrank.netlify.app/",
+          "style": "primary"
+        }
+      ],
+      "labels": [
+        "security",
+        "example"
+      ]
+    }
+  ]
+}
