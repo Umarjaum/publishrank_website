@@ -1,0 +1,12 @@
+{
+  "name": "PublishRank",
+  "version": "2.9.69",
+  "stable_tag": "2.9.69",
+  "archive": "/downloads/publishrank-2.9.69.zip",
+  "sha256": "4fe35e76aee814afbcfc2214e6300bf72f84d563d84185f4a8384d71819b807a",
+  "requires_wp": "6.3",
+  "requires_php": "7.4",
+  "tested_wp": "7.1",
+  "license": "GPL-2.0-or-later",
+  "plugin_slug": "publishrank"
+}

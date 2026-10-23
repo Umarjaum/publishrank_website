@@ -18,6 +18,7 @@ export default async (request: Request) => {
   if (request.method !== 'GET') return new Response(null, { status: 405, headers: { Allow: 'GET, OPTIONS' } });
   try {
     const dir = join(process.cwd(), 'downloads');
+    const metadata = JSON.parse(await readFile(join(process.cwd(), 'release.json'), 'utf8')) as Record<string, string>;
     const releases = (await readdir(dir)).map(f => /^publishrank-(\d+(?:\.\d+){1,3})\.zip\.sha256$/.exec(f)).filter((m): m is RegExpExecArray => Boolean(m));
     if (!releases.length) throw new Error('No release');
     releases.sort((a, b) => compare(b[1], a[1]));
@@ -26,11 +27,11 @@ export default async (request: Request) => {
     const current = (new URL(request.url).searchParams.get('current') || '').trim();
     const valid = /^\d+(\.\d+){1,3}$/.test(current);
     const body: Record<string, unknown> = {
-      name: 'PublishRank', version, sha256, download_url: `${origin()}/downloads/publishrank-${version}.zip`, details_url: `${origin()}/download.html`,
-      requires_wp: '6.3', requires_php: '7.4', tested_wp: '7.1', license: 'GPL-2.0-or-later'
+      name: metadata.name || 'PublishRank', version, sha256, download_url: `${origin()}${metadata.archive || `/downloads/publishrank-${version}.zip`}`, details_url: `${origin()}/download.html`,
+      stable_tag: metadata.stable_tag || version, requires_wp: metadata.requires_wp || '6.3', requires_php: metadata.requires_php || '7.4', tested_wp: metadata.tested_wp || '7.1', license: metadata.license || 'GPL-2.0-or-later', plugin_slug: metadata.plugin_slug || 'publishrank'
     };
     if (valid) { body.current = current; body.update_available = compare(version, current) > 0; }
-    else if (current) return new Response(JSON.stringify({ error: 'Use a version like 2.9.67.' }), { status: 400, headers: { ...headers, 'Cache-Control': 'no-store' } });
+    else if (current) return new Response(JSON.stringify({ error: 'Use a version like 2.9.69.' }), { status: 400, headers: { ...headers, 'Cache-Control': 'no-store' } });
     return new Response(JSON.stringify(body), { headers });
   } catch {
     return new Response(JSON.stringify({ error: 'Release information is temporarily unavailable.' }), { status: 503, headers: { ...headers, 'Cache-Control': 'no-store' } });

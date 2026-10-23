@@ -39,7 +39,7 @@ Editorial photography lives in `assets/img/` with descriptive filenames and cont
 
 ## Search readiness and launch follow-up
 
-**Plugin download:** `downloads/publishrank-2.9.67.zip` (with `.sha256`) is served from this site and linked from `download.html`. To release an update, add the new ZIP under `downloads/`, then update the version, checksum and the `/download/latest` redirect in `netlify.toml`, plus `download.html` and `features.html`.
+**Plugin download:** `downloads/publishrank-2.9.69.zip` (with `.sha256`) is served from this site and linked from `download.html`. To release an update, add the new ZIP under `downloads/`, then update the version, checksum and the `/download/latest` redirect in `netlify.toml`, plus `download.html`, `release.json` and `features.html`.
 
 The supplied WordPress slug is `publishrank`, linked as https://wordpress.org/plugins/publishrank/. On October 8, 2026, the WordPress plugin API returned “Plugin not found” and the directory link led to a search page. Confirm the public listing, author, and release before promoting installation; the site does not invent version numbers or review ratings.
 

@@ -87,7 +87,7 @@
   included_files = ["netlify/functions/lib/search-index.json", "faqs.json", "announcements.json"]
 
 [functions.version]
-  included_files = ["downloads/*.sha256"]
+  included_files = ["downloads/*.sha256", "release.json"]
 
 [[headers]]
   for = "/api/search"
