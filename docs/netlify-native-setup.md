@@ -5,7 +5,7 @@ The website now uses Netlify Identity for account access and Netlify Database fo
 ## One-time Netlify setup
 
 1. In the Netlify project, enable **Identity** and keep registration open while testing, or use invite-only registration for a controlled launch.
-2. Enable email/password login and the Google/GitHub providers under Identity registration settings.
+2. Enable email/password login and the Google/GitHub providers under Identity registration settings. The live site currently reports email and GitHub enabled; Google should be enabled in Netlify before it is offered.
 3. Enable **Netlify Database** for the site. It is available on credit-based plans.
 4. Deploy the repository. Netlify automatically applies `netlify/database/migrations/0001_publishrank_accounts.sql` before publishing the deploy.
 5. Add the production website URL and any custom-domain URL to the Identity site URL/redirect configuration.
