@@ -1,0 +1,457 @@
+[
+ {
+  "t": "PublishRank home",
+  "u": "/",
+  "d": "Open-source WordPress SEO toolkit for news publishers.",
+  "k": "Page",
+  "w": "home start"
+ },
+ {
+  "t": "SEO Score",
+  "u": "/platform.html#seo-score",
+  "d": "A local editorial checklist for every story. Scores each article on headline, description, content depth, subheadings, featured image, dates and links, then lists the stories to review first. Scoring runs locally, so article text is not sent to an external service. It is a checklist, not a ranking prediction.",
+  "k": "Tool",
+  "w": "SEO Score Write and optimize seo score"
+ },
+ {
+  "t": "Schema",
+  "u": "/platform.html#schema",
+  "d": "Connected structured data for stories and publisher. Configure publisher identity, article types and media in one place. PublishRank outputs a linked JSON-LD graph with publisher, author, WebSite, WebPage, article, image and breadcrumb entities, with a copyable preview in the editor.",
+  "k": "Tool",
+  "w": "Schema Write and optimize schema"
+ },
+ {
+  "t": "Author Expertise",
+  "u": "/platform.html#author-expertise",
+  "d": "Show who is behind each story. Keep author details such as role and subject expertise next to your content so bylines and author schema describe real people.",
+  "k": "Tool",
+  "w": "Author Expertise Write and optimize author expertise"
+ },
+ {
+  "t": "Internal Links",
+  "u": "/platform.html#internal-links",
+  "d": "Find link opportunities and orphan pages. Review inbound links and suggested connections across your archive so older stories keep getting readers and crawlers.",
+  "k": "Tool",
+  "w": "Internal Links Write and optimize internal links"
+ },
+ {
+  "t": "Image Optimizer",
+  "u": "/platform.html#image-optimizer",
+  "d": "Smaller images, consistent social previews. Review image dimensions and file sizes, then create optimized copies with your chosen width, quality and WebP or JPEG output. The original stays on disk. Optional watermarking for social images is separate.",
+  "k": "Tool",
+  "w": "Image Optimizer Write and optimize image optimizer"
+ },
+ {
+  "t": "Publisher Toolkit",
+  "u": "/platform.html#publisher-toolkit",
+  "d": "Bulk edits for large archives. Edit selected SEO metadata in bulk, clear chosen fields on purpose, and fill missing image alt text from attachment titles. Existing alt text and edit permissions are respected.",
+  "k": "Tool",
+  "w": "Publisher Toolkit Write and optimize publisher toolkit"
+ },
+ {
+  "t": "Local SEO",
+  "u": "/platform.html#local-seo",
+  "d": "Describe a physical place to search engines. Add local business details for publishers and newsrooms that serve a specific place or have an office readers can visit.",
+  "k": "Tool",
+  "w": "Local SEO Write and optimize local seo"
+ },
+ {
+  "t": "Insights",
+  "u": "/platform.html#insights",
+  "d": "Content maintenance at a glance. Spot stale, thin or duplicate-looking content and decide what to update, merge or retire.",
+  "k": "Tool",
+  "w": "Insights Write and optimize insights"
+ },
+ {
+  "t": "Site Verification",
+  "u": "/platform.html#site-verification",
+  "d": "Prove ownership without touching files. Paste the meta tag token from Google, Bing, Yandex, Baidu, Naver, Seznam, Pinterest or Meta, or add any other verification tag. Upload a verification file and PublishRank serves it from your site root. Then test exactly what a crawler sees.",
+  "k": "Tool",
+  "w": "Site Verification Get discovered site verification"
+ },
+ {
+  "t": "Sitemap Health",
+  "u": "/platform.html#sitemap-health",
+  "d": "Check the XML before search engines do. Inspect your sitemap index and Google News sitemap for valid XML, duplicate URLs, child references and counts. The dashboard gives you both URLs to submit.",
+  "k": "Tool",
+  "w": "Sitemap Health Get discovered sitemap health"
+ },
+ {
+  "t": "Search Console",
+  "u": "/platform.html#search-console",
+  "d": "Optional, read-only search reports. Connect Google Search Console to view search reports inside WordPress. Connecting is optional and core features work without it.",
+  "k": "Tool",
+  "w": "Search Console Get discovered search console"
+ },
+ {
+  "t": "Search Engines",
+  "u": "/platform.html#search-engines",
+  "d": "Settings for each engine you submit to. Keep the optional discovery services you use in one screen, from verification to submission settings.",
+  "k": "Tool",
+  "w": "Search Engines Get discovered search engines"
+ },
+ {
+  "t": "IndexNow",
+  "u": "/platform.html#indexnow",
+  "d": "Tell participating engines when you publish. Send new and updated URLs to IndexNow and review the submission log. An accepted response means the endpoint acknowledged the request, not that a page was crawled or indexed.",
+  "k": "Tool",
+  "w": "IndexNow Get discovered indexnow"
+ },
+ {
+  "t": "Robots.txt",
+  "u": "/platform.html#robots-txt",
+  "d": "Preview and test crawl rules safely. Inspect directives with a live preview and a URL rule tester. Manage sitemap lines and AI crawler presets. Robots.txt guides crawlers; it does not protect private content.",
+  "k": "Tool",
+  "w": "Robots.txt Get discovered robots txt"
+ },
+ {
+  "t": "AI & llms.txt",
+  "u": "/platform.html#ai-llms-txt",
+  "d": "A curated map of your site for AI agents. Publish a plain Markdown llms.txt with your site summary, homepage, recent articles, pages and editorial standards, plus an optional extended file. It checks the file for problems and shows a preview. It does not grant or deny crawler access.",
+  "k": "Tool",
+  "w": "AI & llms.txt Get discovered ai llms txt"
+ },
+ {
+  "t": "Analytics",
+  "u": "/platform.html#analytics",
+  "d": "Local trends, no visitor tracking. See the editorial score trend, published counts and IndexNow responses over 7, 30 or 90 days, and export the data as CSV. Nothing about visitors or article content goes to a remote analytics service.",
+  "k": "Tool",
+  "w": "Analytics Get discovered analytics"
+ },
+ {
+  "t": "Traffic Guard",
+  "u": "/platform.html#traffic-guard",
+  "d": "Allow or block networks and countries. Block IP addresses or CIDR ranges, add trusted exceptions and set country rules through a trusted proxy such as Cloudflare. Administrators, login, REST, feeds, robots.txt, llms.txt and sitemaps are never blocked. Rules run locally and no visitor IP is stored.",
+  "k": "Tool",
+  "w": "Traffic Guard Protect and maintain traffic guard"
+ },
+ {
+  "t": "Redirects",
+  "u": "/platform.html#redirects",
+  "d": "Move stories without losing readers. Create exact or regular-expression redirects with 301, 302, 303, 307 and 308 codes or a 410 Gone response, import rules in bulk and check for loops.",
+  "k": "Tool",
+  "w": "Redirects Protect and maintain redirects"
+ },
+ {
+  "t": "404 Monitor",
+  "u": "/platform.html#404-monitor",
+  "d": "Learn which missing URLs people request. An opt-in log groups requested paths with hit counts and referrers. Turn any entry into a redirect. IP addresses are not stored.",
+  "k": "Tool",
+  "w": "404 Monitor Protect and maintain 404 monitor"
+ },
+ {
+  "t": "Link Intelligence",
+  "u": "/platform.html#link-intelligence",
+  "d": "Audit broken and redirected links. Run an audit for broken internal links, links that pass through redirects and orphan pages, with an optional slower check of external URLs. It uses local analysis and no API.",
+  "k": "Tool",
+  "w": "Link Intelligence Protect and maintain link intelligence"
+ },
+ {
+  "t": "Diagnostics",
+  "u": "/platform.html#diagnostics",
+  "d": "See what your site actually outputs. Inspect conflicting SEO plugins, theme compatibility, frontend metadata, canonicals, schema and sitemap output when something looks wrong.",
+  "k": "Tool",
+  "w": "Diagnostics Protect and maintain diagnostics"
+ },
+ {
+  "t": "Configuration History",
+  "u": "/platform.html#configuration-history",
+  "d": "Know what changed and when. Review earlier configuration changes so you can trace a sudden change in SEO output back to its cause.",
+  "k": "Tool",
+  "w": "Configuration History Protect and maintain configuration history"
+ },
+ {
+  "t": "Dashboard",
+  "u": "/platform.html#dashboard",
+  "d": "Your publishing health in one screen. Shows SEO health checks, published articles, 404 hits, redirect rules and IndexNow status, with the sitemap URLs to submit and a shortcut to every workspace.",
+  "k": "Tool",
+  "w": "Dashboard Set up and control dashboard"
+ },
+ {
+  "t": "Settings",
+  "u": "/platform.html#settings",
+  "d": "Site-wide defaults for everything. Set titles, metadata, News sitemap options and optional administrator access controls once, then let automatic SEO handle each article.",
+  "k": "Tool",
+  "w": "Settings Set up and control settings"
+ },
+ {
+  "t": "Setup Wizard",
+  "u": "/platform.html#setup-wizard",
+  "d": "A guided first-run review. Walk through the essentials in order when you install PublishRank, so a new site starts with sensible defaults.",
+  "k": "Tool",
+  "w": "Setup Wizard Set up and control setup wizard"
+ },
+ {
+  "t": "Publisher Account",
+  "u": "/platform.html#publisher-account",
+  "d": "Your publisher identity. Manage the account details that tie your installation to your publication.",
+  "k": "Tool",
+  "w": "Publisher Account Set up and control publisher account"
+ },
+ {
+  "t": "Documentation & Help",
+  "u": "/platform.html#documentation-help",
+  "d": "Guides inside WordPress. Open the bundled documentation and troubleshooting steps without leaving the admin.",
+  "k": "Tool",
+  "w": "Documentation & Help Set up and control documentation help"
+ },
+ {
+  "t": "About PublishRank",
+  "u": "/about.html",
+  "d": "Meet PublishRank, a fully nonprofit independent WordPress SEO project dedicated to news publishers of every size, developed by Muhammad Umar Jabbar.",
+  "k": "Page",
+  "w": ""
+ },
+ {
+  "t": "Accessibility statement",
+  "u": "/accessibility.html",
+  "d": "PublishRank’s accessibility approach, available navigation features, known limits, and how to report a barrier.",
+  "k": "Policy",
+  "w": ""
+ },
+ {
+  "t": "Cookie policy",
+  "u": "/cookies.html",
+  "d": "Information about cookies, browser storage, and third-party links on the PublishRank static website.",
+  "k": "Policy",
+  "w": ""
+ },
+ {
+  "t": "Disclaimer",
+  "u": "/disclaimer.html",
+  "d": "Important limits on PublishRank’s documentation, SEO outcomes, roadmap, nonprofit description, and third-party relationships.",
+  "k": "Policy",
+  "w": ""
+ },
+ {
+  "t": "Editorial workflows Documentation",
+  "u": "/docs-editorial.html",
+  "d": "Use article intelligence and content relationships to support reporting—not to replace editorial judgment.",
+  "k": "Docs",
+  "w": ""
+ },
+ {
+  "t": "Installation & setup Documentation",
+  "u": "/docs-getting-started.html",
+  "d": "Establish a reliable SEO baseline, test safely, and launch a repeatable publisher workflow.",
+  "k": "Docs",
+  "w": "install setup first steps wizard activate"
+ },
+ {
+  "t": "News SEO & sitemaps Documentation",
+  "u": "/docs-news-seo.html",
+  "d": "Separate fresh-news discovery from archive discovery, and validate what your sitemap actually publishes.",
+  "k": "Docs",
+  "w": ""
+ },
+ {
+  "t": "Operations & troubleshooting Documentation",
+  "u": "/docs-operations.html",
+  "d": "Run deliberate checks across your site, isolate failures safely, and make changes you can validate.",
+  "k": "Docs",
+  "w": "troubleshooting problem error not working conflict cache cdn 404 fix debug"
+ },
+ {
+  "t": "Structured data Documentation",
+  "u": "/docs-schema.html",
+  "d": "Describe your publisher and journalism accurately without creating a second, contradictory version of the story.",
+  "k": "Docs",
+  "w": ""
+ },
+ {
+  "t": "Technical SEO Documentation",
+  "u": "/docs-technical-seo.html",
+  "d": "Keep indexing decisions, canonical identity, redirects, and social metadata aligned across your publication.",
+  "k": "Docs",
+  "w": ""
+ },
+ {
+  "t": "Publisher Documentation & Advanced SEO Guides",
+  "u": "/docs.html",
+  "d": "The PublishRank handbook: installation, news sitemaps, schema, canonicals, editorial workflows, large-archive operations, and troubleshooting.",
+  "k": "Docs",
+  "w": ""
+ },
+ {
+  "t": "Download PublishRank 2.9.67 | WordPress SEO Plugin",
+  "u": "/download.html",
+  "d": "Download the PublishRank 2.9.67 WordPress plugin ZIP, with requirements, installation steps, checksum and compatibility status.",
+  "k": "Page",
+  "w": "install download zip version update checksum sha256"
+ },
+ {
+  "t": "Frequently Asked Questions",
+  "u": "/faq",
+  "d": "Answers about PublishRank’s nonprofit mission, news publisher focus, setup, large archives, planned migration tools, and support.",
+  "k": "Page",
+  "w": ""
+ },
+ {
+  "t": "Features and Feature Status",
+  "u": "/features.html",
+  "d": "What PublishRank v2.9.67 includes: on-page SEO, article intelligence, structured data, news sitemaps, technical SEO, internal linking and operations, with honest status.",
+  "k": "Guide",
+  "w": ""
+ },
+ {
+  "t": "Google Discover Readiness for WordPress Publishers",
+  "u": "/google-discover.html",
+  "d": "Prepare WordPress articles for Google Discover with relevant large images, crawlable content, accurate metadata, clear authorship, and a practical SEO checklist.",
+  "k": "Guide",
+  "w": ""
+ },
+ {
+  "t": "Image SEO for WordPress",
+  "u": "/image-seo.html",
+  "d": "Build relevant photography, useful alt text and image optimization into your publishing workflow.",
+  "k": "Guide",
+  "w": ""
+ },
+ {
+  "t": "Article SEO Intelligence",
+  "u": "/intelligence.html",
+  "d": "PublishRank Article Intelligence evaluates headlines, keyphrases, metadata, structure, readability, images, links and editorial signals.",
+  "k": "Guide",
+  "w": ""
+ },
+ {
+  "t": "Yoast & Rank Math Migration Center",
+  "u": "/migration.html",
+  "d": "A planned PublishRank migration workflow for moving SEO metadata from Yoast SEO and Rank Math with preview, backup, validation and rollback.",
+  "k": "Guide",
+  "w": ""
+ },
+ {
+  "t": "Our Fully Nonprofit Mission",
+  "u": "/mission.html",
+  "d": "PublishRank is a fully nonprofit, independent project dedicated to helping news publishers of all sizes build stronger WordPress SEO foundations.",
+  "k": "Page",
+  "w": ""
+ },
+ {
+  "t": "Privacy policy",
+  "u": "/privacy.html",
+  "d": "How the PublishRank website handles website visits, email enquiries, hosting, and links to third-party services.",
+  "k": "Policy",
+  "w": ""
+ },
+ {
+  "t": "News Publisher SEO for Every Newsroom",
+  "u": "/publishers.html",
+  "d": "PublishRank is dedicated to news publishers of every size, from independent local outlets to large editorial teams. A fully nonprofit WordPress SEO project.",
+  "k": "Page",
+  "w": ""
+ },
+ {
+  "t": "PublishRank vs Rank Math: A WordPress SEO Guide",
+  "u": "/publishrank-vs-rank-math.html",
+  "d": "Compare PublishRank and Rank Math for a WordPress newsroom. Review publishing needs, metadata ownership, sitemaps, and a safe plugin migration checklist.",
+  "k": "Guide",
+  "w": ""
+ },
+ {
+  "t": "PublishRank vs Yoast SEO: A Publisher’s Guide",
+  "u": "/publishrank-vs-yoast.html",
+  "d": "Evaluating PublishRank as a Yoast SEO alternative? Compare newsroom workflows, article metadata, schema, sitemaps, and safe WordPress migration steps.",
+  "k": "Guide",
+  "w": ""
+ },
+ {
+  "t": "WordPress redirects and 404 monitoring",
+  "u": "/redirects.html",
+  "d": "Use redirect management and 404 monitoring to maintain useful paths through your publication.",
+  "k": "Guide",
+  "w": ""
+ },
+ {
+  "t": "Report a PublishRank Issue",
+  "u": "/report-issue.html",
+  "d": "Send a detailed PublishRank bug report with versions, steps, severity and screenshots. Handled securely by Netlify Forms.",
+  "k": "Page",
+  "w": "bug report problem issue help contact support error"
+ },
+ {
+  "t": "PublishRank Roadmap",
+  "u": "/roadmap.html",
+  "d": "See the current and planned PublishRank roadmap for publisher SEO infrastructure.",
+  "k": "Page",
+  "w": ""
+ },
+ {
+  "t": "Schema suite for WordPress publishers",
+  "u": "/schema-suite.html",
+  "d": "Help search engines understand your articles, authors and publication with accurate structured data.",
+  "k": "Guide",
+  "w": ""
+ },
+ {
+  "t": "Scalable XML & News Sitemaps",
+  "u": "/sitemaps.html",
+  "d": "PublishRank sitemap infrastructure uses publisher-focused XML, News, image and video sitemap capabilities with scalable processing.",
+  "k": "Guide",
+  "w": ""
+ },
+ {
+  "t": "Support & Contact",
+  "u": "/support.html",
+  "d": "Contact the PublishRank developer for documentation feedback, bug reports, accessibility issues, and news publisher workflow questions.",
+  "k": "Page",
+  "w": "help contact email developer"
+ },
+ {
+  "t": "Terms of use",
+  "u": "/terms.html",
+  "d": "Terms for using PublishRank’s public website, documentation, project information, and support resources.",
+  "k": "Policy",
+  "w": ""
+ },
+ {
+  "t": "WordPress SEO toolkit for publishers",
+  "u": "/wordpress-seo.html",
+  "d": "Explore article analysis, live previews, metadata, schema and sitemaps in PublishRank’s open-source WordPress toolkit.",
+  "k": "Guide",
+  "w": ""
+ },
+ {
+  "t": "PublishRank introduces a dedicated publishing guide library",
+  "u": "/news/publishrank-editorial-library",
+  "d": "The PublishRank website adds a dedicated editorial hub, full article pages and focused guides to help WordPress publishers review their SEO workflows.",
+  "k": "Article",
+  "w": "Project news"
+ },
+ {
+  "t": "A practical news sitemap checklist for WordPress publishers",
+  "u": "/news/news-sitemap-checklist",
+  "d": "Check publication dates, canonical URLs and article eligibility before submitting your news sitemap.",
+  "k": "Article",
+  "w": "News SEO"
+ },
+ {
+  "t": "Connect your article schema to a clear publisher identity",
+  "u": "/news/article-schema-publisher-identity",
+  "d": "Make your headline, dates, author and publisher consistent across the page and its structured data.",
+  "k": "Article",
+  "w": "Structured data"
+ },
+ {
+  "t": "Build image SEO into your editorial workflow",
+  "u": "/news/image-seo-editorial-workflow",
+  "d": "A useful image workflow balances context, accessibility, discoverability and page speed.",
+  "k": "Article",
+  "w": "Editorial workflow"
+ },
+ {
+  "t": "A technical SEO review before your next publishing cycle",
+  "u": "/news/publishrank-technical-seo-review",
+  "d": "Review metadata, redirects and indexability together instead of treating an SEO score as the finish line.",
+  "k": "Article",
+  "w": "Technical SEO"
+ },
+ {
+  "t": "News",
+  "u": "/news",
+  "d": "Product news, announcements and publishing guides.",
+  "k": "Page",
+  "w": "news announcements updates"
+ }
+]

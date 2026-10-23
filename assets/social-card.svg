@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <rect width="1200" height="630" fill="#08121b"/>
-  <path d="M0 530h1200M950 0v630" stroke="#283b46"/>
-  <rect x="78" y="68" width="44" height="48" rx="5" fill="#9dd7c5"/>
-  <path d="M88 81h24m-24 9h24m-24 9h15" stroke="#08121b" stroke-width="4"/>
-  <text x="138" y="103" font-family="DejaVu Sans,sans-serif" font-size="32" font-weight="bold" fill="#eff4ed">PublishRank</text>
-  <text x="78" y="228" font-family="DejaVu Serif,serif" font-size="68" fill="#eff4ed">Built for the newsroom.</text>
-  <text x="78" y="314" font-family="DejaVu Serif,serif" font-size="68" fill="#9dd7c5">Not for the bottom line.</text>
-  <text x="82" y="410" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#a5b7c1">Publisher-first WordPress SEO. Small or large, you belong.</text>
-  <rect x="82" y="450" width="240" height="40" rx="4" fill="#142c24" stroke="#35594e"/>
-  <circle cx="101" cy="470" r="4" fill="#9dd7c5"/>
-  <text x="117" y="477" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#c1e8da">Fully nonprofit.</text>
-  <text x="82" y="584" font-family="DejaVu Sans,sans-serif" font-size="20" fill="#a5b7c1">publishrank.netlify.app</text>
+  <rect width="1200" height="630" fill="#1b0e17"/>
+  <path d="M0 530h1200M950 0v630" stroke="#4b2941"/>
+  <rect x="78" y="68" width="44" height="48" rx="5" fill="#e0c994"/>
+  <path d="M88 81h24m-24 9h24m-24 9h15" stroke="#1b0e17" stroke-width="4"/>
+  <text x="138" y="103" font-family="DejaVu Sans,sans-serif" font-size="32" font-weight="bold" fill="#f5f2ec">PublishRank</text>
+  <text x="78" y="228" font-family="DejaVu Serif,serif" font-size="68" fill="#f5f2ec">Built for the newsroom.</text>
+  <text x="78" y="314" font-family="DejaVu Serif,serif" font-size="68" fill="#e0c994">Not for the bottom line.</text>
+  <text x="82" y="410" font-family="DejaVu Sans,sans-serif" font-size="25" fill="#bbabb2">Publisher-first WordPress SEO. Small or large, you belong.</text>
+  <rect x="82" y="450" width="240" height="40" rx="4" fill="#2e1927" stroke="#603453"/>
+  <circle cx="101" cy="470" r="4" fill="#e0c994"/>
+  <text x="117" y="477" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#ecdebd">Fully nonprofit.</text>
+  <text x="82" y="584" font-family="DejaVu Sans,sans-serif" font-size="20" fill="#bbabb2">publishrank.netlify.app</text>
 </svg>

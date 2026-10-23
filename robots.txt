@@ -1,3 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /netlify/
+Disallow: /scripts/
 Sitemap: https://publishrank.netlify.app/sitemap.xml
+Sitemap: https://publishrank.netlify.app/news-sitemap.xml
+Sitemap: https://publishrank.netlify.app/faq-sitemap.xml

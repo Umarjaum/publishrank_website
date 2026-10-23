@@ -1,0 +1,1061 @@
+{
+  "schema_version": "1.0",
+  "categories": [
+    "Getting started",
+    "Features",
+    "News SEO & sitemaps",
+    "Schema & rich results",
+    "Compare plugins",
+    "Privacy & security",
+    "Support & troubleshooting"
+  ],
+  "faqs": [
+    {
+      "slug": "what-is-publishrank",
+      "category": "Getting started",
+      "question": "What is PublishRank?",
+      "answer": [
+        "PublishRank is an independent, open-source WordPress plugin for bloggers, independent publishers and newsrooms. It brings article SEO analysis, live previews, connected schema, XML and News sitemaps, IndexNow, redirects, image tools and site-protection controls into one toolkit with 27 tools."
+      ],
+      "links": [
+        {
+          "label": "Browse all 27 tools",
+          "url": "/platform.html"
+        }
+      ],
+      "related": [
+        "who-is-publishrank-for",
+        "is-publishrank-free"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "who-is-publishrank-for",
+      "category": "Getting started",
+      "question": "Who is PublishRank built for?",
+      "answer": [
+        "PublishRank is dedicated to news publishers of every size: independent reporters, local outlets, magazines, growing editorial teams and large news organizations using WordPress. Bloggers who publish regularly also use the same tools."
+      ],
+      "links": [
+        {
+          "label": "Workflows by team size",
+          "url": "/publishers.html"
+        }
+      ],
+      "related": [
+        "what-is-publishrank"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "is-publishrank-free",
+      "category": "Getting started",
+      "question": "Is PublishRank free?",
+      "answer": [
+        "The core plugin is free and released under GPL v2 or later. Some optional integrations, such as Search Console or third-party services you choose to connect, have their own accounts, terms and limits that are separate from the plugin."
+      ],
+      "links": [
+        {
+          "label": "Download PublishRank",
+          "url": "/download.html"
+        }
+      ],
+      "related": [
+        "is-publishrank-nonprofit",
+        "what-license-does-publishrank-use"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "is-publishrank-nonprofit",
+      "category": "Getting started",
+      "question": "Is PublishRank fully nonprofit?",
+      "answer": [
+        "Yes. PublishRank is an independent, fully nonprofit project focused on helping publishers rather than generating profit. This is a mission and operating commitment, not a claim of registered charity or tax-exempt status."
+      ],
+      "links": [
+        {
+          "label": "Our mission",
+          "url": "/mission.html"
+        }
+      ],
+      "related": [
+        "is-publishrank-free"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "what-license-does-publishrank-use",
+      "category": "Getting started",
+      "question": "What license does PublishRank use?",
+      "answer": [
+        "PublishRank is distributed under GPL v2 or later, the same family of licenses used across the WordPress ecosystem. The license text ships with the download."
+      ],
+      "links": [
+        {
+          "label": "Download page",
+          "url": "/download.html"
+        }
+      ],
+      "related": [
+        "is-publishrank-free"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "system-requirements",
+      "category": "Getting started",
+      "question": "What are the system requirements for PublishRank?",
+      "answer": [
+        "The current download, v2.9.67, lists WordPress 6.3 or later and PHP 7.4 or later. Its readme records testing up to WordPress 7.1. Always confirm the requirements on the download page for the version you install, and test on staging first."
+      ],
+      "links": [
+        {
+          "label": "Requirements and compatibility",
+          "url": "/download.html"
+        }
+      ],
+      "related": [
+        "how-do-i-install-publishrank"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "how-do-i-install-publishrank",
+      "category": "Getting started",
+      "question": "How do I install PublishRank?",
+      "answer": [
+        "Download the ZIP from the download page, then in WordPress go to Plugins, Add New, Upload Plugin, choose the ZIP and activate it. Before activating, back up your site and deactivate any other plugin that outputs SEO tags so only one source controls your metadata."
+      ],
+      "links": [
+        {
+          "label": "Step-by-step install guide",
+          "url": "/docs-getting-started.html"
+        },
+        {
+          "label": "Download PublishRank",
+          "url": "/download.html"
+        }
+      ],
+      "related": [
+        "where-should-i-begin",
+        "can-i-run-publishrank-with-another-seo-plugin"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "where-should-i-begin",
+      "category": "Getting started",
+      "question": "Where should I begin after installing?",
+      "answer": [
+        "Run the Setup Wizard for a guided first review. Then confirm one active source of SEO output, set your publisher identity, and validate a few representative article URLs (a breaking story, an evergreen piece, a section page and an author page) before a full rollout."
+      ],
+      "links": [
+        {
+          "label": "Getting started guide",
+          "url": "/docs-getting-started.html"
+        }
+      ],
+      "related": [
+        "how-do-i-install-publishrank",
+        "how-do-i-check-my-output"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "can-i-run-publishrank-with-another-seo-plugin",
+      "category": "Getting started",
+      "question": "Can I run PublishRank alongside another SEO plugin?",
+      "answer": [
+        "It is not recommended. Two plugins that both print titles, canonical tags, robots directives, schema or sitemaps can produce duplicate or conflicting output. Pick one active source for each type of output, test on staging, and use the Diagnostics screen to see what your pages actually emit."
+      ],
+      "links": [
+        {
+          "label": "Pre-install notes",
+          "url": "/download.html"
+        }
+      ],
+      "related": [
+        "can-i-move-from-yoast-or-rank-math-automatically",
+        "how-do-i-check-my-output"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "can-i-move-from-yoast-or-rank-math-automatically",
+      "category": "Getting started",
+      "question": "Can I move from Yoast SEO or Rank Math automatically?",
+      "answer": [
+        "The Migration Center is marked as planned. Do not assume an automatic importer, preview or rollback tool exists in your installed release. Keep a full backup, export your redirects and review the migration roadmap before changing plugins."
+      ],
+      "links": [
+        {
+          "label": "Migration roadmap",
+          "url": "/migration.html"
+        }
+      ],
+      "related": [
+        "can-i-run-publishrank-with-another-seo-plugin",
+        "how-do-i-switch-from-another-seo-plugin"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "how-do-i-switch-from-another-seo-plugin",
+      "category": "Getting started",
+      "question": "How should I switch from another SEO plugin safely?",
+      "answer": [
+        "Record the current title, description, canonical, schema and sitemap inclusion for five representative URLs, back up the site, then switch on staging and compare the new output. Re-submit your sitemap in Search Console afterwards and watch coverage reports for a few weeks."
+      ],
+      "links": [
+        {
+          "label": "Migration guide",
+          "url": "/migration.html"
+        }
+      ],
+      "related": [
+        "can-i-move-from-yoast-or-rank-math-automatically"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "what-tools-are-included",
+      "category": "Features",
+      "question": "What tools are included in PublishRank?",
+      "answer": [
+        "PublishRank has 27 tools in four groups: write and optimize (SEO Score, Schema, Author Expertise, Internal Links, Image Optimizer and more), get discovered (Site Verification, Sitemap Health, IndexNow, Robots.txt, llms.txt), protect and maintain (Traffic Guard, Redirects, 404 Monitor, Diagnostics) and set up and control (Dashboard, Settings, Setup Wizard)."
+      ],
+      "links": [
+        {
+          "label": "Platform overview",
+          "url": "/platform.html"
+        },
+        {
+          "label": "Feature status",
+          "url": "/features.html"
+        }
+      ],
+      "related": [
+        "what-is-publishrank"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "what-is-the-seo-score",
+      "category": "Features",
+      "question": "What does the PublishRank SEO Score measure?",
+      "answer": [
+        "It is a local editorial checklist that reviews each article for items such as title, description, keyphrase use, readability and structure. It is an aid for editors. A high score does not mean a story is ready to publish or that it will rank."
+      ],
+      "links": [
+        {
+          "label": "Article intelligence",
+          "url": "/intelligence.html"
+        }
+      ],
+      "related": [
+        "does-a-high-score-mean-ready-to-publish"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "does-a-high-score-mean-ready-to-publish",
+      "category": "Features",
+      "question": "Does a high article score mean a story is ready to publish?",
+      "answer": [
+        "No. Recommendations are editorial aids, not substitutes for fact-checking, original reporting, sourcing, author review or legal review. An editor makes the final publishing decision."
+      ],
+      "links": [],
+      "related": [
+        "what-is-the-seo-score"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "what-is-live-seo-preview",
+      "category": "Features",
+      "question": "What is the Live SEO Preview?",
+      "answer": [
+        "The editor preview shows the search snippet, social card, meta tags and JSON-LD built from your unsaved edits, so you can see how a draft will be represented before you publish it."
+      ],
+      "links": [
+        {
+          "label": "Live preview in the platform tour",
+          "url": "/platform.html#seo-score"
+        }
+      ],
+      "related": [
+        "what-is-the-seo-score"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "what-is-indexnow",
+      "category": "Features",
+      "question": "What is IndexNow and does PublishRank support it?",
+      "answer": [
+        "IndexNow is a protocol that lets a site notify participating search engines when URLs are published or updated. PublishRank includes an IndexNow tool and local activity reporting. Participation and crawl timing are decided by each search engine."
+      ],
+      "links": [
+        {
+          "label": "IndexNow tool",
+          "url": "/platform.html#indexnow"
+        }
+      ],
+      "related": [
+        "does-publishrank-guarantee-rankings"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "what-is-llms-txt",
+      "category": "Features",
+      "question": "What is llms.txt in PublishRank?",
+      "answer": [
+        "The AI and llms.txt tool helps you publish a curated Markdown map of your important pages for AI agents. It is optional, and no AI system is obliged to read or follow it."
+      ],
+      "links": [
+        {
+          "label": "AI and llms.txt tool",
+          "url": "/platform.html#ai-llms-txt"
+        }
+      ],
+      "related": [
+        "can-i-control-crawlers-with-publishrank"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "can-i-control-crawlers-with-publishrank",
+      "category": "Features",
+      "question": "Can PublishRank edit my robots.txt?",
+      "answer": [
+        "Yes. The Robots.txt tool lets you preview and test crawl rules safely before they go live. Rules are public requests to crawlers, not access control, so do not rely on them to hide private content."
+      ],
+      "links": [
+        {
+          "label": "Robots.txt tool",
+          "url": "/platform.html#robots-txt"
+        }
+      ],
+      "related": [
+        "what-is-llms-txt"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "how-do-redirects-and-404-monitor-work",
+      "category": "Features",
+      "question": "How do redirects and the 404 Monitor work?",
+      "answer": [
+        "Redirects supports exact and regex rules with multiple HTTP statuses. The 404 Monitor is a separate, opt-in tool capped at 500 paths that shows which missing URLs people request so you can fix them."
+      ],
+      "links": [
+        {
+          "label": "Redirects and 404s",
+          "url": "/redirects.html"
+        }
+      ],
+      "related": [
+        "how-do-i-report-a-problem"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "what-is-traffic-guard",
+      "category": "Features",
+      "question": "What is Traffic Guard?",
+      "answer": [
+        "Traffic Guard is an optional tool for allowing or blocking anonymous frontend traffic by IP, network or country, with rules that run locally in WordPress. Review rules carefully so you do not block search engine crawlers or legitimate readers."
+      ],
+      "links": [
+        {
+          "label": "Traffic Guard",
+          "url": "/platform.html#traffic-guard"
+        }
+      ],
+      "related": [
+        "does-publishrank-track-my-visitors"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "does-publishrank-optimize-images",
+      "category": "Features",
+      "question": "Does PublishRank optimize images?",
+      "answer": [
+        "Yes. The Image Optimizer helps produce smaller files and consistent social previews, and the Image SEO guide covers alt text, dimensions and watermarking workflows. Test on a staging copy and keep your originals."
+      ],
+      "links": [
+        {
+          "label": "Image SEO guide",
+          "url": "/image-seo.html"
+        }
+      ],
+      "related": [
+        "what-tools-are-included"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "can-it-support-a-large-archive",
+      "category": "Features",
+      "question": "Can PublishRank support a large archive?",
+      "answer": [
+        "PublishRank is designed with large-site publishing patterns in mind, including cursor-based sitemap processing instead of offset pagination. Real capacity depends on your hosting, database, other plugins and release, so benchmark representative workloads and roll out in stages."
+      ],
+      "links": [
+        {
+          "label": "Sitemap architecture",
+          "url": "/sitemaps.html"
+        }
+      ],
+      "related": [
+        "how-does-the-news-sitemap-work"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "how-do-i-check-my-output",
+      "category": "Features",
+      "question": "How do I check what PublishRank outputs on my site?",
+      "answer": [
+        "Use the Diagnostics screen and the Live Preview, then view the page source or run a representative URL through a validator. Check titles, canonical, robots directives, JSON-LD and sitemap entries for a handful of different page types."
+      ],
+      "links": [
+        {
+          "label": "Diagnostics",
+          "url": "/platform.html#diagnostics"
+        }
+      ],
+      "related": [
+        "where-should-i-begin"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "how-does-the-news-sitemap-work",
+      "category": "News SEO & sitemaps",
+      "question": "How does the PublishRank News Sitemap work?",
+      "answer": [
+        "The News Sitemap lists genuine, recently published news articles with publication name, language, date and title, following the Google News sitemap format. Google News sitemaps cover articles from the last two days, while older stories stay in your standard XML sitemap."
+      ],
+      "links": [
+        {
+          "label": "News SEO documentation",
+          "url": "/docs-news-seo.html"
+        },
+        {
+          "label": "Sitemaps",
+          "url": "/sitemaps.html"
+        }
+      ],
+      "related": [
+        "why-is-my-news-sitemap-empty",
+        "does-publishrank-guarantee-google-news"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "why-is-my-news-sitemap-empty",
+      "category": "News SEO & sitemaps",
+      "question": "Why is my News Sitemap empty?",
+      "answer": [
+        "A News Sitemap is empty when no eligible article was published in the last two days, when the post type is not selected as news, or when publication settings are incomplete. Check the publication date and timezone, confirm the post is public and indexable, then reload the sitemap."
+      ],
+      "links": [
+        {
+          "label": "Sitemap Health",
+          "url": "/platform.html#sitemap-health"
+        }
+      ],
+      "related": [
+        "how-does-the-news-sitemap-work",
+        "why-are-my-sitemap-urls-404"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "why-are-my-sitemap-urls-404",
+      "category": "News SEO & sitemaps",
+      "question": "Why do my sitemap URLs return 404?",
+      "answer": [
+        "On WordPress this is usually a permalink or rewrite-rules issue, a caching layer serving old responses, or another plugin handling the same sitemap path. Re-save Settings, Permalinks, clear caches, disable any other sitemap generator and test again."
+      ],
+      "links": [
+        {
+          "label": "Operations troubleshooting",
+          "url": "/docs-operations.html"
+        }
+      ],
+      "related": [
+        "why-is-my-news-sitemap-empty"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "does-publishrank-guarantee-google-news",
+      "category": "News SEO & sitemaps",
+      "question": "Does PublishRank guarantee Google News inclusion?",
+      "answer": [
+        "No. Google decides eligibility, indexing and presentation. Good technical configuration helps make your content understandable, but it does not guarantee inclusion, traffic or rankings."
+      ],
+      "links": [
+        {
+          "label": "News SEO documentation",
+          "url": "/docs-news-seo.html"
+        }
+      ],
+      "related": [
+        "does-publishrank-guarantee-rankings"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "does-publishrank-guarantee-rankings",
+      "category": "News SEO & sitemaps",
+      "question": "Does PublishRank guarantee higher rankings?",
+      "answer": [
+        "No. Search engines control discovery, indexing, eligibility and rankings. PublishRank helps you configure the technical and editorial foundations; it cannot promise visibility or traffic."
+      ],
+      "links": [],
+      "related": [
+        "does-publishrank-guarantee-google-news"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "is-my-site-ready-for-google-discover",
+      "category": "News SEO & sitemaps",
+      "question": "Is my site ready for Google Discover?",
+      "answer": [
+        "Discover favors helpful, timely content with large, relevant images, clear authorship and crawlable pages. The Discover readiness guide lists foundations to check, and PublishRank can help with image sizing, author identity and schema. Nothing guarantees Discover placement."
+      ],
+      "links": [
+        {
+          "label": "Google Discover guide",
+          "url": "/google-discover.html"
+        }
+      ],
+      "related": [
+        "does-publishrank-optimize-images"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "how-do-i-submit-my-sitemap",
+      "category": "News SEO & sitemaps",
+      "question": "How do I submit my sitemap to search engines?",
+      "answer": [
+        "Open Google Search Console or Bing Webmaster Tools, choose Sitemaps, and submit the sitemap URL shown on your PublishRank Dashboard. Use Site Verification first if you still need to prove ownership."
+      ],
+      "links": [
+        {
+          "label": "Site Verification",
+          "url": "/platform.html#site-verification"
+        }
+      ],
+      "related": [
+        "how-do-i-verify-my-site"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "how-do-i-verify-my-site",
+      "category": "News SEO & sitemaps",
+      "question": "How do I verify my site with search engines?",
+      "answer": [
+        "The Site Verification tool supports eight engines, any extra meta tag and a file-upload option, so you can prove ownership without editing theme files. Paste the code the engine gives you, save, then click verify in that engine's console."
+      ],
+      "links": [
+        {
+          "label": "Site Verification",
+          "url": "/platform.html#site-verification"
+        }
+      ],
+      "related": [
+        "how-do-i-submit-my-sitemap"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "what-schema-does-publishrank-output",
+      "category": "Schema & rich results",
+      "question": "What schema does PublishRank output?",
+      "answer": [
+        "PublishRank builds a connected JSON-LD graph that links articles, authors, images, videos and your publisher organization. The Schema tool lets you review and adjust these entities."
+      ],
+      "links": [
+        {
+          "label": "Schema Suite",
+          "url": "/schema-suite.html"
+        },
+        {
+          "label": "Structured data docs",
+          "url": "/docs-schema.html"
+        }
+      ],
+      "related": [
+        "does-valid-schema-guarantee-rich-results"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "does-valid-schema-guarantee-rich-results",
+      "category": "Schema & rich results",
+      "question": "Does valid structured data guarantee rich results?",
+      "answer": [
+        "No. Valid markup makes a page eligible to be understood, but search engines decide whether to show enhanced results, and some result types are limited to certain kinds of sites. Validate representative URLs and correct reported errors."
+      ],
+      "links": [],
+      "related": [
+        "what-schema-does-publishrank-output"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "does-publishrank-support-faq-schema",
+      "category": "Schema & rich results",
+      "question": "Does PublishRank support FAQ schema?",
+      "answer": [
+        "This website marks up its own FAQ pages with FAQPage JSON-LD. For your WordPress site, check the Schema Suite documentation and your installed release for the exact FAQ and other schema types supported. Google currently limits FAQ rich results to a small set of sites, so FAQ markup is no promise of a rich result."
+      ],
+      "links": [
+        {
+          "label": "Schema Suite",
+          "url": "/schema-suite.html"
+        }
+      ],
+      "related": [
+        "does-valid-schema-guarantee-rich-results"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "how-does-publishrank-handle-authors",
+      "category": "Schema & rich results",
+      "question": "How does PublishRank handle author identity?",
+      "answer": [
+        "The Author Expertise tool lets you show who is behind each story and connect authors to schema, so articles, bylines and author pages are consistent across your site."
+      ],
+      "links": [
+        {
+          "label": "Author Expertise",
+          "url": "/platform.html#author-expertise"
+        }
+      ],
+      "related": [
+        "what-schema-does-publishrank-output"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "can-i-use-publishrank-for-local-seo",
+      "category": "Schema & rich results",
+      "question": "Can I use PublishRank for local SEO?",
+      "answer": [
+        "The Local SEO tool describes a physical place, such as an office or studio, to search engines. Keep the name, address and phone consistent with your public listings."
+      ],
+      "links": [
+        {
+          "label": "Local SEO",
+          "url": "/platform.html#local-seo"
+        }
+      ],
+      "related": [
+        "what-schema-does-publishrank-output"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "publishrank-vs-other-seo-plugins",
+      "category": "Compare plugins",
+      "question": "How does PublishRank compare with other WordPress SEO plugins?",
+      "answer": [
+        "PublishRank is built around news publishing: News and standard sitemaps, article schema, IndexNow, redirects with a 404 Monitor, image tools, Traffic Guard and custom login controls in one free toolkit. Other plugins also cover many of these areas, so compare the documented features and editions against your newsroom's needs rather than any score."
+      ],
+      "links": [
+        {
+          "label": "Yoast comparison",
+          "url": "/publishrank-vs-yoast.html"
+        },
+        {
+          "label": "Rank Math comparison",
+          "url": "/publishrank-vs-rank-math.html"
+        }
+      ],
+      "related": [
+        "publishrank-vs-yoast-seo",
+        "publishrank-vs-rank-math",
+        "which-seo-plugin-is-best-for-news"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "publishrank-vs-yoast-seo",
+      "category": "Compare plugins",
+      "question": "What is the difference between PublishRank and Yoast SEO?",
+      "answer": [
+        "Both are WordPress SEO plugins. PublishRank is a nonprofit, news-first toolkit that includes redirects, a 404 Monitor, image tools and optional Traffic Guard in its free core. Yoast documents a redirect manager in its Premium offering, and publishers often look at its News SEO add-on, so check the current edition and plan before deciding."
+      ],
+      "links": [
+        {
+          "label": "Full Yoast comparison",
+          "url": "/publishrank-vs-yoast.html"
+        }
+      ],
+      "related": [
+        "publishrank-vs-other-seo-plugins",
+        "yoast-news-seo-vs-publishrank-news-sitemap"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "yoast-news-seo-vs-publishrank-news-sitemap",
+      "category": "Compare plugins",
+      "question": "How does Yoast's News SEO add-on compare with PublishRank's News Sitemap?",
+      "answer": [
+        "Yoast offers news functionality as a separate News SEO add-on, while PublishRank includes a News Sitemap in the plugin itself. Both aim to help Google find recent news articles. Confirm each product's current pricing, eligibility rules and settings in the vendor's documentation, because editions change."
+      ],
+      "links": [
+        {
+          "label": "News SEO documentation",
+          "url": "/docs-news-seo.html"
+        }
+      ],
+      "related": [
+        "publishrank-vs-yoast-seo",
+        "how-does-the-news-sitemap-work"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "publishrank-vs-rank-math",
+      "category": "Compare plugins",
+      "question": "What is the difference between PublishRank and Rank Math?",
+      "answer": [
+        "Both cover article analysis, schema, sitemaps and redirections. PublishRank adds live re-analysis, a bounded 404 Monitor, image tools, Traffic Guard and custom login entry controls in its core and focuses on news publishers. Rank Math documents its own schema, sitemap and 404 tools, so verify the edition and requirements for each feature."
+      ],
+      "links": [
+        {
+          "label": "Full Rank Math comparison",
+          "url": "/publishrank-vs-rank-math.html"
+        }
+      ],
+      "related": [
+        "publishrank-vs-other-seo-plugins",
+        "publishrank-vs-all-in-one-seo"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "publishrank-vs-all-in-one-seo",
+      "category": "Compare plugins",
+      "question": "How does PublishRank compare with All in One SEO (AIOSEO)?",
+      "answer": [
+        "AIOSEO is a long-established WordPress SEO plugin with free and paid editions. PublishRank is free, open source and publisher-first. Because AIOSEO's edition limits change, check its current documentation for News Sitemap, redirects and schema availability, then compare against the PublishRank feature status page."
+      ],
+      "links": [
+        {
+          "label": "PublishRank feature status",
+          "url": "/features.html"
+        }
+      ],
+      "related": [
+        "publishrank-vs-other-seo-plugins",
+        "publishrank-vs-seopress"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "publishrank-vs-seopress",
+      "category": "Compare plugins",
+      "question": "How does PublishRank compare with SEOPress?",
+      "answer": [
+        "SEOPress is a WordPress SEO plugin with free and Pro editions. PublishRank keeps its news and sitemap tooling in a free, GPL core. Review SEOPress's current documentation for Google News sitemap, redirect and schema coverage, since which features sit in which edition can change."
+      ],
+      "links": [
+        {
+          "label": "PublishRank platform tools",
+          "url": "/platform.html"
+        }
+      ],
+      "related": [
+        "publishrank-vs-other-seo-plugins",
+        "publishrank-vs-the-seo-framework"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "publishrank-vs-the-seo-framework",
+      "category": "Compare plugins",
+      "question": "How does PublishRank compare with The SEO Framework?",
+      "answer": [
+        "The SEO Framework is known for a lightweight, automated approach. PublishRank is a broader publisher toolkit with 27 tools, including News Sitemap, IndexNow, redirects, a 404 Monitor and image tools. If you prefer minimal configuration, compare how much of the publishing workflow you need built in."
+      ],
+      "links": [
+        {
+          "label": "Platform tools",
+          "url": "/platform.html"
+        }
+      ],
+      "related": [
+        "publishrank-vs-other-seo-plugins",
+        "publishrank-vs-seopress"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "which-seo-plugin-is-best-for-news",
+      "category": "Compare plugins",
+      "question": "Which SEO plugin is best for a news publisher?",
+      "answer": [
+        "No plugin is best for every newsroom. Write down what your team needs: reliable article metadata, consistent author identity, a valid News Sitemap, redirects for developing stories and a way to monitor 404s. Test each candidate on staging with the same five URLs and compare the output."
+      ],
+      "links": [
+        {
+          "label": "Publisher workflows",
+          "url": "/publishers.html"
+        }
+      ],
+      "related": [
+        "publishrank-vs-other-seo-plugins",
+        "does-publishrank-guarantee-google-news"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "is-publishrank-faster-than-other-plugins",
+      "category": "Compare plugins",
+      "question": "Is PublishRank faster than other SEO plugins?",
+      "answer": [
+        "There is no benchmark on this site that establishes PublishRank as faster or lighter than any other plugin. Performance depends on your host, theme, database and active plugins. Measure your own site before and after on staging."
+      ],
+      "links": [],
+      "related": [
+        "publishrank-vs-other-seo-plugins"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "is-publishrank-more-secure-than-other-plugins",
+      "category": "Compare plugins",
+      "question": "Is PublishRank more secure than other SEO plugins?",
+      "answer": [
+        "No superiority claim is made. PublishRank includes optional Traffic Guard and custom login URL controls, but you should still keep WordPress, themes and plugins updated and use strong passwords and two-factor authentication."
+      ],
+      "links": [
+        {
+          "label": "Security controls",
+          "url": "/features.html"
+        }
+      ],
+      "related": [
+        "what-is-traffic-guard"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "can-i-use-publishrank-with-a-page-builder-or-theme",
+      "category": "Compare plugins",
+      "question": "Does PublishRank work with themes and page builders?",
+      "answer": [
+        "PublishRank outputs standard SEO tags and JSON-LD through WordPress hooks, so it should work with well-built themes. Themes that print their own SEO tags can duplicate output, so use Diagnostics to check, and test on staging when using a heavily customized theme."
+      ],
+      "links": [
+        {
+          "label": "Compatibility table",
+          "url": "/download.html"
+        }
+      ],
+      "related": [
+        "can-i-run-publishrank-with-another-seo-plugin"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "does-publishrank-track-my-visitors",
+      "category": "Privacy & security",
+      "question": "Does PublishRank track my visitors?",
+      "answer": [
+        "The Analytics tool shows local trends inside WordPress without visitor tracking. Optional integrations you enable have their own data policies."
+      ],
+      "links": [
+        {
+          "label": "Privacy policy",
+          "url": "/privacy.html"
+        }
+      ],
+      "related": [
+        "does-publishrank-need-an-external-api"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "does-publishrank-need-an-external-api",
+      "category": "Privacy & security",
+      "question": "Do I need a third-party SEO API to use PublishRank?",
+      "answer": [
+        "No. The project describes its core analysis as WordPress-native and not dependent on an external SEO API. Optional services you enable, such as IndexNow or Search Console, should be reviewed for their own configuration and data policies."
+      ],
+      "links": [
+        {
+          "label": "Features and status",
+          "url": "/features.html"
+        }
+      ],
+      "related": [
+        "does-publishrank-track-my-visitors"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "is-the-search-console-connection-ready",
+      "category": "Privacy & security",
+      "question": "Is the Search Console connection ready to use?",
+      "answer": [
+        "The connection is implemented in the source and is read-only, but its operational readiness still requires live verification. Treat it as optional and test it on your own site before relying on it."
+      ],
+      "links": [
+        {
+          "label": "Feature status",
+          "url": "/features.html"
+        }
+      ],
+      "related": [
+        "how-do-i-verify-my-site"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "what-does-the-footer-credit-do",
+      "category": "Privacy & security",
+      "question": "Does PublishRank add a footer credit?",
+      "answer": [
+        "The download page lists a footer credit among its pre-install notes. Read those notes before installing, and review the plugin settings for what is shown on your site."
+      ],
+      "links": [
+        {
+          "label": "Pre-install notes",
+          "url": "/download.html"
+        }
+      ],
+      "related": [
+        "how-do-i-install-publishrank"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "how-do-i-verify-the-download",
+      "category": "Privacy & security",
+      "question": "How can I verify my PublishRank download?",
+      "answer": [
+        "Each release ships with a SHA-256 checksum. Compute the checksum of the ZIP you downloaded and compare it with the value on the download page."
+      ],
+      "links": [
+        {
+          "label": "Download PublishRank",
+          "url": "/download.html"
+        }
+      ],
+      "related": [
+        "how-do-i-install-publishrank"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "how-do-i-report-a-problem",
+      "category": "Support & troubleshooting",
+      "question": "How do I report a problem?",
+      "answer": [
+        "Use the Report an issue form. Include the page URL, expected behavior, actual behavior and safe reproduction steps. Never send passwords, tokens, private reader records or unpublished material."
+      ],
+      "links": [
+        {
+          "label": "Report an issue",
+          "url": "/report-issue.html"
+        },
+        {
+          "label": "Support",
+          "url": "/support.html"
+        }
+      ],
+      "related": [
+        "where-can-i-read-the-docs"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "where-can-i-read-the-docs",
+      "category": "Support & troubleshooting",
+      "question": "Where can I read the documentation?",
+      "answer": [
+        "The documentation hub has six chapters: getting started, News SEO and sitemaps, structured data, technical SEO, editorial workflows and operations. A site-wide search is available with Ctrl or Cmd plus K."
+      ],
+      "links": [
+        {
+          "label": "Documentation hub",
+          "url": "/docs.html"
+        }
+      ],
+      "related": [
+        "how-do-i-report-a-problem"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "how-do-i-update-publishrank",
+      "category": "Support & troubleshooting",
+      "question": "How do I know if a new version is available?",
+      "answer": [
+        "The download page includes an update checker that compares your version with the latest release and shows the checksum. Back up before updating and test on staging."
+      ],
+      "links": [
+        {
+          "label": "Download page",
+          "url": "/download.html"
+        }
+      ],
+      "related": [
+        "how-do-i-verify-the-download"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "schema-not-showing-on-my-site",
+      "category": "Support & troubleshooting",
+      "question": "Why is my schema not showing in testing tools?",
+      "answer": [
+        "Common causes are another plugin or theme overriding output, a cache serving old HTML, a noindex or blocked URL, or a page type that is not enabled. Clear caches, view the live source and test the public URL, not the draft."
+      ],
+      "links": [
+        {
+          "label": "Technical SEO guide",
+          "url": "/docs-technical-seo.html"
+        }
+      ],
+      "related": [
+        "how-do-i-check-my-output"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    },
+    {
+      "slug": "how-do-i-get-product-news",
+      "category": "Support & troubleshooting",
+      "question": "Where can I find PublishRank news and announcements?",
+      "answer": [
+        "The News page lists product announcements and guides. A New badge appears beside News in the menu when something new has been published."
+      ],
+      "links": [
+        {
+          "label": "News",
+          "url": "/news"
+        }
+      ],
+      "related": [
+        "where-can-i-read-the-docs"
+      ],
+      "updated_at": "2026-10-23T00:00:00Z"
+    }
+  ]
+}

@@ -3,16 +3,429 @@
   "publisher": {
     "name": "PublishRank SEO",
     "website": "https://publishrank.netlify.app/",
-    "documentation": "https://publishrank.netlify.app/"
+    "documentation": "https://publishrank.netlify.app/docs.html"
   },
   "feed": {
     "status": "active",
-    "generated_at": "2026-10-14T06:30:00Z",
+    "generated_at": "2026-10-23T00:05:00Z",
     "language": "en",
     "cache_ttl": 3600,
     "minimum_reader_version": "1.0.0"
   },
   "announcements": [
+    {
+      "id": "publishrank-website-news-faq",
+      "slug": "new-news-and-faq-library",
+      "revision": 1,
+      "active": true,
+      "type": "feature",
+      "priority": "normal",
+      "featured": true,
+      "category": "Project news",
+      "article_type": "NewsArticle",
+      "author": "PublishRank Editorial",
+      "title": "PublishRank adds a live News page and a searchable FAQ library",
+      "summary": "News now updates from announcements.json, and every FAQ has its own shareable page with structured data.",
+      "message": "The PublishRank website now builds its News page and article pages from announcements.json, shows a New indicator in the menu when something is published, and offers dedicated pages for every frequently asked question.",
+      "body": [
+        {
+          "heading": "News that follows the feed",
+          "text": "The News page reads announcements.json at request time. When an entry is added, edited, scheduled or expired, the list, the article page, the menu indicator and the news sitemap all follow."
+        },
+        {
+          "heading": "A New indicator in the menu",
+          "text": "A small badge appears beside News when there are stories you have not opened yet. It clears when you visit the News page and returns when something new is published."
+        },
+        {
+          "heading": "One page for every question",
+          "text": "Every FAQ has its own link, so you can send a colleague the exact answer. Each page carries FAQPage structured data and its own title, description and social tags."
+        }
+      ],
+      "image": "https://publishrank.netlify.app/assets/img/newsroom-newspapers.jpg",
+      "image_alt": "Newspapers arranged on a newsroom desk",
+      "published_at": "2026-10-23T00:05:00Z",
+      "updated_at": "2026-10-23T00:05:00Z",
+      "expires_at": null,
+      "news_sitemap": true,
+      "targeting": {
+        "minimum_plugin_version": null,
+        "maximum_plugin_version": null,
+        "audience": [
+          "all"
+        ]
+      },
+      "display": {
+        "show_popup": false,
+        "dismissible": true,
+        "show_once_per_revision": true,
+        "minimum_days_between_prompts": 14
+      },
+      "actions": [
+        {
+          "label": "Browse the FAQ",
+          "url": "https://publishrank.netlify.app/faq",
+          "style": "primary"
+        }
+      ],
+      "labels": [
+        "website",
+        "faq",
+        "news"
+      ],
+      "site_popup": true
+    },
+    {
+      "id": "publishrank-publishrank-editorial-library",
+      "slug": "publishrank-editorial-library",
+      "revision": 1,
+      "active": true,
+      "type": "documentation",
+      "priority": "normal",
+      "featured": false,
+      "category": "Project news",
+      "article_type": "NewsArticle",
+      "author": "PublishRank Editorial",
+      "title": "PublishRank introduces a dedicated publishing guide library",
+      "summary": "The PublishRank website adds a dedicated editorial hub, full article pages and focused guides to help WordPress publishers review their SEO workflows.",
+      "message": "The PublishRank website adds a dedicated editorial hub, full article pages and focused guides to help WordPress publishers review their SEO workflows.",
+      "body": [
+        {
+          "heading": "A new home for publishing guidance",
+          "text": "PublishRank’s website now brings its editorial guidance into a dedicated news and guides library. Readers can browse topics, search the library and open each guide on a separate page with a reading outline and related articles."
+        },
+        {
+          "heading": "Practical topics for WordPress publishers",
+          "text": "The initial library covers news sitemap checks, connected article schema, image SEO and technical reviews. Dedicated product guides also explain the schema suite, image workflow, redirects and the broader WordPress SEO toolkit. The guidance complements the existing installation and operations documentation."
+        },
+        {
+          "heading": "Product notices alongside editorial coverage",
+          "text": "An announcements section brings active product reminders and documentation notices into the library. These notices remain separate from editorial articles so readers can distinguish configuration guidance from project news."
+        },
+        {
+          "heading": "Continue with the documentation",
+          "text": "The news library links to the existing documentation and product comparison guides. Publishers can use those resources to review the settings relevant to their own WordPress installation. Search engines still decide how pages are discovered, indexed and presented."
+        }
+      ],
+      "image": "https://publishrank.netlify.app/assets/img/team-planning.jpg",
+      "image_alt": "A publishing team collaborating around a table",
+      "published_at": "2026-10-22T08:00:00Z",
+      "updated_at": "2026-10-22T08:00:00Z",
+      "expires_at": null,
+      "news_sitemap": true,
+      "targeting": {
+        "minimum_plugin_version": null,
+        "maximum_plugin_version": null,
+        "audience": [
+          "all"
+        ]
+      },
+      "display": {
+        "show_popup": false,
+        "dismissible": true,
+        "show_once_per_revision": true,
+        "minimum_days_between_prompts": 14
+      },
+      "actions": [
+        {
+          "label": "Read the documentation",
+          "url": "https://publishrank.netlify.app/docs.html",
+          "style": "secondary"
+        }
+      ],
+      "labels": [
+        "project-news"
+      ],
+      "site_popup": false
+    },
+    {
+      "id": "publishrank-news-sitemap-checklist",
+      "slug": "news-sitemap-checklist",
+      "revision": 1,
+      "active": true,
+      "type": "documentation",
+      "priority": "normal",
+      "featured": false,
+      "category": "News SEO",
+      "article_type": "Article",
+      "author": "PublishRank Editorial",
+      "title": "A practical news sitemap checklist for WordPress publishers",
+      "summary": "Check publication dates, canonical URLs and article eligibility before submitting your news sitemap.",
+      "message": "Check publication dates, canonical URLs and article eligibility before submitting your news sitemap.",
+      "body": [
+        {
+          "heading": "Start with the articles you actually publish",
+          "text": "A news sitemap describes recent news coverage. It is not a place for every product page, evergreen guide or announcement. Review your publication identity and language, then select the post types that contain genuine news reporting."
+        },
+        {
+          "heading": "Keep the two-day window accurate",
+          "text": "Google News sitemaps include articles published in the preceding two days. Use the original publication timestamp, with its timezone, rather than changing dates to keep older work in the feed. Older articles can remain discoverable in your standard XML sitemap."
+        },
+        {
+          "heading": "Check the URL and the headline",
+          "text": "Open a sample article and compare its canonical link with the sitemap URL. Both should identify the same public, indexable page. Use the visible article headline in news metadata and make sure the publication name matches the name used on your website."
+        },
+        {
+          "heading": "Validate after publishing",
+          "text": "Inspect the XML after a new story goes live. Check that it has the required publication name, language, publication date and title. Submit the sitemap in Search Console and monitor processing errors. A valid sitemap helps discovery; it does not guarantee indexing or Google News inclusion."
+        }
+      ],
+      "image": "https://publishrank.netlify.app/assets/img/newsroom-newspapers.jpg",
+      "image_alt": "Newspapers arranged on a newsroom desk",
+      "published_at": "2026-10-22T07:00:00Z",
+      "updated_at": "2026-10-22T07:00:00Z",
+      "expires_at": null,
+      "news_sitemap": false,
+      "targeting": {
+        "minimum_plugin_version": null,
+        "maximum_plugin_version": null,
+        "audience": [
+          "all"
+        ]
+      },
+      "display": {
+        "show_popup": false,
+        "dismissible": true,
+        "show_once_per_revision": true,
+        "minimum_days_between_prompts": 14
+      },
+      "actions": [
+        {
+          "label": "Read the documentation",
+          "url": "https://publishrank.netlify.app/docs.html",
+          "style": "secondary"
+        }
+      ],
+      "labels": [
+        "news-seo"
+      ],
+      "site_popup": false
+    },
+    {
+      "id": "publishrank-article-schema-publisher-identity",
+      "slug": "article-schema-publisher-identity",
+      "revision": 1,
+      "active": true,
+      "type": "documentation",
+      "priority": "normal",
+      "featured": false,
+      "category": "Structured data",
+      "article_type": "Article",
+      "author": "PublishRank Editorial",
+      "title": "Connect your article schema to a clear publisher identity",
+      "summary": "Make your headline, dates, author and publisher consistent across the page and its structured data.",
+      "message": "Make your headline, dates, author and publisher consistent across the page and its structured data.",
+      "body": [
+        {
+          "heading": "Choose the type that describes the page",
+          "text": "Use Article or BlogPosting for editorial guides and commentary. Use NewsArticle for genuine news reporting. Schema should describe what readers can see; a product page should not be presented as news just to qualify for a different search appearance."
+        },
+        {
+          "heading": "Give authors a visible identity",
+          "text": "Show the author or editorial team on the article itself. Link to an accurate biography or about page. In JSON-LD, use a Person for a named individual and an Organization for a publication team, matching the identity shown to readers."
+        },
+        {
+          "heading": "Use real dates and useful images",
+          "text": "Keep datePublished tied to the original publication and change dateModified when the content materially changes. Choose a relevant, crawlable image and supply meaningful alternative text. Do not add invisible claims or invented author credentials to markup."
+        },
+        {
+          "heading": "Test representative pages",
+          "text": "Validate a normal article, a guide and a page with unusual content. Check the rendered source for duplicate schema emitted by your theme or another plugin. Structured data supports understanding and eligibility, but search engines decide how results appear."
+        }
+      ],
+      "image": "https://publishrank.netlify.app/assets/img/editorial-writing.jpg",
+      "image_alt": "Notebook and pen ready for an editorial draft",
+      "published_at": "2026-10-21T07:00:00Z",
+      "updated_at": "2026-10-21T07:00:00Z",
+      "expires_at": null,
+      "news_sitemap": false,
+      "targeting": {
+        "minimum_plugin_version": null,
+        "maximum_plugin_version": null,
+        "audience": [
+          "all"
+        ]
+      },
+      "display": {
+        "show_popup": false,
+        "dismissible": true,
+        "show_once_per_revision": true,
+        "minimum_days_between_prompts": 14
+      },
+      "actions": [
+        {
+          "label": "Read the documentation",
+          "url": "https://publishrank.netlify.app/docs.html",
+          "style": "secondary"
+        }
+      ],
+      "labels": [
+        "structured-data"
+      ],
+      "site_popup": false
+    },
+    {
+      "id": "publishrank-image-seo-editorial-workflow",
+      "slug": "image-seo-editorial-workflow",
+      "revision": 1,
+      "active": true,
+      "type": "documentation",
+      "priority": "normal",
+      "featured": false,
+      "category": "Editorial workflow",
+      "article_type": "Article",
+      "author": "PublishRank Editorial",
+      "title": "Build image SEO into your editorial workflow",
+      "summary": "A useful image workflow balances context, accessibility, discoverability and page speed.",
+      "message": "A useful image workflow balances context, accessibility, discoverability and page speed.",
+      "body": [
+        {
+          "heading": "Choose relevance before decoration",
+          "text": "Select images that help readers understand the article. A newsroom photograph supports a publishing workflow guide; a screenshot is more useful when the reader needs to locate a setting. Label illustrative interfaces clearly and keep real product screenshots separate from decorative photography."
+        },
+        {
+          "heading": "Write text for the image you chose",
+          "text": "Use a descriptive filename and alternative text that explains the image in context. Avoid repeating the focus keyword in every image. Decorative images can use an empty alt attribute when the adjacent text already communicates their purpose."
+        },
+        {
+          "heading": "Reserve space and control loading",
+          "text": "Declare image width and height so the browser can reserve space. Load the main visible hero promptly and lazy-load images farther down the page. Export reasonable dimensions and quality rather than sending an original camera file to every visitor."
+        },
+        {
+          "heading": "Review sharing and search previews",
+          "text": "Check the canonical URL and the Open Graph image on a public article. Use an absolute image URL that crawlers can fetch. A large, relevant image can improve previews, but it does not promise Discover placement or a particular ranking."
+        }
+      ],
+      "image": "https://publishrank.netlify.app/assets/img/publishing-workspace.jpg",
+      "image_alt": "Laptop and notebook in an editorial workspace",
+      "published_at": "2026-10-20T07:00:00Z",
+      "updated_at": "2026-10-20T07:00:00Z",
+      "expires_at": null,
+      "news_sitemap": false,
+      "targeting": {
+        "minimum_plugin_version": null,
+        "maximum_plugin_version": null,
+        "audience": [
+          "all"
+        ]
+      },
+      "display": {
+        "show_popup": false,
+        "dismissible": true,
+        "show_once_per_revision": true,
+        "minimum_days_between_prompts": 14
+      },
+      "actions": [
+        {
+          "label": "Read the documentation",
+          "url": "https://publishrank.netlify.app/docs.html",
+          "style": "secondary"
+        }
+      ],
+      "labels": [
+        "editorial-workflow"
+      ],
+      "site_popup": false
+    },
+    {
+      "id": "publishrank-publishrank-technical-seo-review",
+      "slug": "publishrank-technical-seo-review",
+      "revision": 1,
+      "active": true,
+      "type": "documentation",
+      "priority": "normal",
+      "featured": false,
+      "category": "Technical SEO",
+      "article_type": "Article",
+      "author": "PublishRank Editorial",
+      "title": "A technical SEO review before your next publishing cycle",
+      "summary": "Review metadata, redirects and indexability together instead of treating an SEO score as the finish line.",
+      "message": "Review metadata, redirects and indexability together instead of treating an SEO score as the finish line.",
+      "body": [
+        {
+          "heading": "Review the public output",
+          "text": "Open the source of a published article. Confirm that the title and description are useful, the canonical points to the intended page, and robots directives allow indexing when appropriate. Check that only one active SEO plugin owns these outputs."
+        },
+        {
+          "heading": "Follow redirects to their destination",
+          "text": "A changed URL should redirect directly to a relevant replacement. Avoid redirect chains and sending every missing page to the homepage. Review recurring 404s to find broken internal links and update the source links when possible."
+        },
+        {
+          "heading": "Connect pages through useful links",
+          "text": "Link related guides where they answer the reader’s next question. Descriptive link text helps readers and crawlers understand the destination. Keep important content reachable from the navigation, documentation hub or relevant article pages."
+        },
+        {
+          "heading": "Measure what matters",
+          "text": "Use Search Console to monitor indexing and search performance after deployment. Keep a record of meaningful content and configuration changes. PublishRank’s article guidance supports editorial decisions; it is not a guarantee of traffic or rankings."
+        }
+      ],
+      "image": "https://publishrank.netlify.app/assets/img/analytics-dashboard.jpg",
+      "image_alt": "Analytics charts displayed on a laptop",
+      "published_at": "2026-10-19T07:00:00Z",
+      "updated_at": "2026-10-19T07:00:00Z",
+      "expires_at": null,
+      "news_sitemap": false,
+      "targeting": {
+        "minimum_plugin_version": null,
+        "maximum_plugin_version": null,
+        "audience": [
+          "all"
+        ]
+      },
+      "display": {
+        "show_popup": false,
+        "dismissible": true,
+        "show_once_per_revision": true,
+        "minimum_days_between_prompts": 14
+      },
+      "actions": [
+        {
+          "label": "Read the documentation",
+          "url": "https://publishrank.netlify.app/docs.html",
+          "style": "secondary"
+        }
+      ],
+      "labels": [
+        "technical-seo"
+      ],
+      "site_popup": false
+    },
+    {
+      "id": "publishrank-text-only-example",
+      "slug": "announcement-without-image",
+      "revision": 1,
+      "active": true,
+      "type": "documentation",
+      "priority": "normal",
+      "featured": false,
+      "category": "Project news",
+      "article_type": "Article",
+      "author": "PublishRank Editorial",
+      "title": "Example: an announcement without an image",
+      "summary": "Entries with no image or a broken image link render cleanly with no empty frame.",
+      "message": "Entries without an image field, or whose image link cannot be loaded, are shown without any image. Delete this example when you no longer need it.",
+      "published_at": "2026-10-21T08:00:00Z",
+      "updated_at": "2026-10-21T08:00:00Z",
+      "expires_at": null,
+      "news_sitemap": false,
+      "targeting": {
+        "minimum_plugin_version": null,
+        "maximum_plugin_version": null,
+        "audience": [
+          "all"
+        ]
+      },
+      "display": {
+        "show_popup": false,
+        "dismissible": true,
+        "show_once_per_revision": true,
+        "minimum_days_between_prompts": 14
+      },
+      "actions": [],
+      "labels": [
+        "example"
+      ],
+      "site_popup": false
+    },
     {
       "id": "publishrank-news-sitemap-guidance",
       "revision": 1,
@@ -50,7 +463,15 @@
       "labels": [
         "news-seo",
         "sitemaps"
-      ]
+      ],
+      "slug": "review-your-news-sitemap",
+      "category": "News SEO",
+      "article_type": "Article",
+      "author": "PublishRank Editorial",
+      "news_sitemap": false,
+      "image": "https://publishrank.netlify.app/assets/img/publishing-workspace.jpg",
+      "image_alt": "A publishing workspace with a laptop and notebook",
+      "site_popup": false
     },
     {
       "id": "publishrank-schema-validation-guidance",
@@ -82,14 +503,20 @@
       "actions": [
         {
           "label": "Visit Documentation",
-          "url": "https://publishrank.netlify.app/",
+          "url": "https://publishrank.netlify.app/docs-schema.html",
           "style": "secondary"
         }
       ],
       "labels": [
         "schema",
         "technical-seo"
-      ]
+      ],
+      "slug": "review-your-structured-data",
+      "category": "Structured data",
+      "article_type": "Article",
+      "author": "PublishRank Editorial",
+      "news_sitemap": false,
+      "site_popup": false
     },
     {
       "id": "publishrank-security-advisory-example",
@@ -127,7 +554,13 @@
       "labels": [
         "security",
         "example"
-      ]
+      ],
+      "slug": "example-security-advisory",
+      "category": "Security",
+      "article_type": "Article",
+      "author": "PublishRank Editorial",
+      "news_sitemap": false,
+      "site_popup": false
     }
   ]
 }
