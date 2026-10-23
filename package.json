@@ -13,5 +13,9 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "dependencies": {
+    "@netlify/database": "^2.0.1",
+    "@netlify/identity": "^2.0.0"
   }
 }
