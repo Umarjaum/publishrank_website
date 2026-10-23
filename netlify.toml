@@ -136,7 +136,7 @@
   status = 404
   force = true
 
-# Caching: images change rarely; CSS and JS revalidate within the hour.
+# Caching: images change rarely; CSS and JS refresh within the hour, served from cache while revalidating.
 [[headers]]
   for = "/assets/img/*"
   [headers.values]
@@ -145,12 +145,12 @@
 [[headers]]
   for = "/assets/*.css"
   [headers.values]
-    Cache-Control = "public, max-age=3600, must-revalidate"
+    Cache-Control = "public, max-age=3600, stale-while-revalidate=86400"
 
 [[headers]]
   for = "/assets/*.js"
   [headers.values]
-    Cache-Control = "public, max-age=3600, must-revalidate"
+    Cache-Control = "public, max-age=3600, stale-while-revalidate=86400"
 
 [[headers]]
   for = "/*"
