@@ -15,7 +15,7 @@
 
 [[redirects]]
   from = "/download/latest"
-  to = "/downloads/publishrank-2.9.67.zip"
+  to = "/downloads/publishrank-2.9.69.zip"
   status = 302
 
 [[headers]]
