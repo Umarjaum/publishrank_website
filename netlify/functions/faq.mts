@@ -20,7 +20,7 @@ export default async (request: Request) => {
     if (url.pathname === '/faq-sitemap.xml') {
       const latest = faqs.reduce((m, f) => (f.updated_at > m ? f.updated_at : m), '');
       const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${origin()}/faq</loc><lastmod>${escape(latest)}</lastmod></url>${faqs.map(f => `<url><loc>${escape(origin() + '/faq/' + f.slug)}</loc><lastmod>${escape(f.updated_at)}</lastmod></url>`).join('')}</urlset>`;
-      return new Response(body, { headers: { 'Content-Type': 'application/xml; charset=utf-8', 'Cache-Control': 'public, max-age=0, must-revalidate', 'Netlify-CDN-Cache-Control': 'public, s-maxage=300, must-revalidate' } });
+      return new Response(body, { headers: { 'Content-Type': 'application/xml; charset=utf-8', 'Cache-Control': 'public, max-age=0, must-revalidate', 'Netlify-CDN-Cache-Control': 'public, s-maxage=300, stale-while-revalidate=86400' } });
     }
     if (url.pathname === '/api/faq') return Response.json({ faqs }, { headers: { 'Cache-Control': 'public, max-age=300', 'X-Robots-Tag': 'noindex' } });
     const slug = decodeURIComponent(url.pathname.replace(/^\/faq\/?/, '')).replace(/\/$/, '');

@@ -17,7 +17,7 @@ export default async (request: Request) => {
       const latest = all.reduce((m, a) => (a.updated_at > m ? a.updated_at : m), all[0]?.updated_at || new Date(now).toISOString());
       urls = `<url><loc>${origin()}/news</loc><lastmod>${escape(new Date(latest).toISOString())}</lastmod></url>` + all.map(a => `<url><loc>${escape(origin() + '/news/' + a.slug)}</loc><lastmod>${escape(new Date(a.updated_at).toISOString())}</lastmod>${a.image ? `<image:image><image:loc>${escape(a.image)}</image:loc></image:image>` : ''}</url>`).join('');
     }
-    return new Response(`<?xml version="1.0" encoding="UTF-8"?>\n<urlset ${NS}>${urls}</urlset>`, { headers: { 'Content-Type': 'application/xml; charset=utf-8', 'Cache-Control': 'public, max-age=0, must-revalidate', 'Netlify-CDN-Cache-Control': 'public, s-maxage=60, must-revalidate' } });
+    return new Response(`<?xml version="1.0" encoding="UTF-8"?>\n<urlset ${NS}>${urls}</urlset>`, { headers: { 'Content-Type': 'application/xml; charset=utf-8', 'Cache-Control': 'public, max-age=0, must-revalidate', 'Netlify-CDN-Cache-Control': 'public, s-maxage=60, stale-while-revalidate=86400' } });
   } catch {
     return new Response('Sitemap temporarily unavailable.', { status: 503, headers: { 'Retry-After': '60', 'Cache-Control': 'no-store' } });
   }

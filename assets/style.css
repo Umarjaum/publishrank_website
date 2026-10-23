@@ -229,7 +229,7 @@ h3 { line-height: 1.35; }
 .footer-bottom { display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 24px; color: var(--muted); font-size: 10px; }
 .footer-bottom p { margin: 0; }
 .back-top { color: var(--cyan); }
-.reveal.visible { animation: appear .65s ease both; }
+.reveal.visible { animation: appear .4s ease both; }
 @keyframes appear { from { transform: translateY(12px); } to { transform: translateY(0); } }
 @media (max-width: 1100px) {
   .links { gap: 16px; font-size: 12px; }
@@ -468,12 +468,12 @@ html:not(.js) .mi:hover > .mega, html:not(.js) .mi:focus-within > .mega { displa
 .hero-x { overflow: hidden; padding: 84px 0 70px; background: radial-gradient(60% 70% at 85% 20%, rgb(111 60 96 / 45%), transparent 70%), radial-gradient(40% 50% at 10% 90%, rgb(31 90 69 / 40%), transparent 70%); }
 .hero-x h1 { font-size: clamp(42px, 6vw, 78px); line-height: 1.02; letter-spacing: -.04em; margin: 22px 0; }
 .hx-line { display: block; overflow: hidden; padding-bottom: .08em; }
-.hx-line > span { display: block; animation: lineup .95s var(--ease) both; }
-.hx-line:nth-child(2) > span { animation-delay: .12s; } .hx-line:nth-child(3) > span { animation-delay: .24s; }
+.hx-line > span { display: block; animation: lineup .5s var(--ease) both; }
+.hx-line:nth-child(2) > span { animation-delay: .05s; } .hx-line:nth-child(3) > span { animation-delay: .1s; }
 .hx-line .gold { color: var(--cyan); }
-.hx-fade { animation: appear .8s var(--ease) .5s both; }
+.hx-fade { animation: appear .4s var(--ease) .1s both; }
 @keyframes lineup { from { transform: translateY(110%); } to { transform: none; } }
-.hx-stage { position: relative; display: grid; justify-items: center; gap: 18px; animation: appear 1s var(--ease) .35s both; }
+.hx-stage { position: relative; display: grid; justify-items: center; gap: 18px; animation: appear .5s var(--ease) .05s both; }
 .device { position: relative; width: min(330px, 86%); padding: 10px; border: 1px solid #7a4468; border-radius: 30px; background: #150a12; box-shadow: 0 40px 90px rgb(0 0 0 / 50%), 0 0 0 6px rgb(224 201 148 / 5%); transform: rotate(2.5deg); }
 .device-screen { position: relative; aspect-ratio: 9 / 14; overflow: hidden; border-radius: 21px; background: #f2efe9; }
 .fd-img { position: absolute; inset: 0 auto auto 0; width: 100%; height: auto; opacity: 0; transition: opacity .7s ease; }

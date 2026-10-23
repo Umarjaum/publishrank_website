@@ -1,7 +1,7 @@
 import type { Config } from '@netlify/functions';
 import { articles, escape, origin, source } from './lib/editorial.mts';
 
-const headers = (type: string) => ({ 'Content-Type': type, 'Cache-Control': 'public, max-age=0, must-revalidate', 'Netlify-CDN-Cache-Control': 'public, s-maxage=300, must-revalidate' });
+const headers = (type: string) => ({ 'Content-Type': type, 'Cache-Control': 'public, max-age=0, must-revalidate', 'Netlify-CDN-Cache-Control': 'public, s-maxage=300, stale-while-revalidate=86400' });
 export default async (request: Request) => {
   if (!['GET', 'HEAD'].includes(request.method)) return new Response(null, { status: 405, headers: { Allow: 'GET, HEAD' } });
   try {
